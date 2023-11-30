@@ -10,6 +10,7 @@ import com.GenericUtilities.WebDriverUtils1;
 
 public class AdminDashBoardPage {
 	WebDriverUtils1 wlib=new WebDriverUtils1();
+	public WebDriver driver;
 	@FindBy(xpath="//span[.='Dashboard']")
 	private WebElement dashboardLink;
 	
@@ -237,7 +238,7 @@ public class AdminDashBoardPage {
 	
 	public void restaurantDD()
 	{
-		
+		wlib.waituntilElementToBeClickable(driver, 30, RestaurantDD);
 		RestaurantDD.click();
 	}
 }
