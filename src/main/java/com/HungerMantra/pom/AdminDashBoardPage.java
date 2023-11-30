@@ -68,7 +68,7 @@ public class AdminDashBoardPage {
 	@FindBy(xpath="//span[.='Users']")
 	private WebElement usersPageLink;
 	
-	@FindBy(xpath="//span[.='Restaurant']")
+	@FindBy(xpath="//a[@class='has-arrow  'and .='Restaurant']")
 	private WebElement RestaurantDD;
 	
 	@FindBy(xpath="//a[.='All Restaurants']")
@@ -238,7 +238,7 @@ public class AdminDashBoardPage {
 	
 	public void restaurantDD()
 	{
-		wlib.waituntilElementToBeClickable(driver, 30, RestaurantDD);
+		
 		RestaurantDD.click();
 	}
 }
