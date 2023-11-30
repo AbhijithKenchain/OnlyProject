@@ -66,7 +66,9 @@ public class EditDashboard_To_Allrestaurants_Admin_Integration_Test extends Admi
 			System.out.println("restaurant not added");
 
 		}
+		arp.cnclClick();
 String resName = "ghj";
+
 admindash.allrestaurantLink();
 
 		AllRestaurantsPage allr=new AllRestaurantsPage();

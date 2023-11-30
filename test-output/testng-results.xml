@@ -2,42 +2,42 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-30T17:23:27 IST" name="Default suite" finished-at="2023-11-30T17:23:50 IST" duration-ms="23044">
+  <suite started-at="2023-11-30T17:49:55 IST" name="Default suite" finished-at="2023-11-30T17:50:20 IST" duration-ms="25351">
     <groups>
       <group name="Regression">
-        <method signature="EditDashboard_To_Allrestaurants_Admin_Integration_Test.editDashboard_To_Allrestaurants_Admin_Integration_Test()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" name="editDashboard_To_Allrestaurants_Admin_Integration_Test" class="com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test"/>
+        <method signature="EditDashboard_To_Allrestaurants_Admin_Integration_Test.editDashboard_To_Allrestaurants_Admin_Integration_Test()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" name="editDashboard_To_Allrestaurants_Admin_Integration_Test" class="com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="EditDashboard_To_Allrestaurants_Admin_Integration_Test.editDashboard_To_Allrestaurants_Admin_Integration_Test()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" name="editDashboard_To_Allrestaurants_Admin_Integration_Test" class="com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test"/>
+        <method signature="EditDashboard_To_Allrestaurants_Admin_Integration_Test.editDashboard_To_Allrestaurants_Admin_Integration_Test()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" name="editDashboard_To_Allrestaurants_Admin_Integration_Test" class="com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-11-30T17:23:27 IST" name="Default test" finished-at="2023-11-30T17:23:50 IST" duration-ms="23044">
+    <test started-at="2023-11-30T17:49:55 IST" name="Default test" finished-at="2023-11-30T17:50:20 IST" duration-ms="25351">
       <class name="com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test">
-        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" started-at="2023-11-30T17:23:22 IST" name="connectDB" finished-at="2023-11-30T17:23:27 IST" duration-ms="5297" status="PASS">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" started-at="2023-11-30T17:49:49 IST" name="connectDB" finished-at="2023-11-30T17:49:55 IST" duration-ms="5270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectDB -->
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" started-at="2023-11-30T17:23:27 IST" name="launchBrowser" finished-at="2023-11-30T17:23:37 IST" duration-ms="9191" status="PASS">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" started-at="2023-11-30T17:49:55 IST" name="launchBrowser" finished-at="2023-11-30T17:50:04 IST" duration-ms="9372" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="adminLogin()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" started-at="2023-11-30T17:23:37 IST" name="adminLogin" finished-at="2023-11-30T17:23:38 IST" duration-ms="887" status="PASS">
+        <test-method is-config="true" signature="adminLogin()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" started-at="2023-11-30T17:50:04 IST" name="adminLogin" finished-at="2023-11-30T17:50:05 IST" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogin -->
-        <test-method signature="editDashboard_To_Allrestaurants_Admin_Integration_Test()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" started-at="2023-11-30T17:23:38 IST" name="editDashboard_To_Allrestaurants_Admin_Integration_Test" finished-at="2023-11-30T17:23:49 IST" duration-ms="11810" status="PASS">
+        <test-method signature="editDashboard_To_Allrestaurants_Admin_Integration_Test()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" started-at="2023-11-30T17:50:05 IST" name="editDashboard_To_Allrestaurants_Admin_Integration_Test" finished-at="2023-11-30T17:50:19 IST" duration-ms="14178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editDashboard_To_Allrestaurants_Admin_Integration_Test -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" started-at="2023-11-30T17:23:49 IST" name="logout" finished-at="2023-11-30T17:23:50 IST" duration-ms="686" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" started-at="2023-11-30T17:50:19 IST" name="logout" finished-at="2023-11-30T17:50:19 IST" duration-ms="648" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" started-at="2023-11-30T17:23:50 IST" name="closeBrowser" finished-at="2023-11-30T17:23:50 IST" duration-ms="355" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" started-at="2023-11-30T17:50:19 IST" name="closeBrowser" finished-at="2023-11-30T17:50:20 IST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@75d4a5c2]" started-at="2023-11-30T17:23:51 IST" name="closeDB" finished-at="2023-11-30T17:23:51 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.HungerMantra.Restaurants.EditDashboard_To_Allrestaurants_Admin_Integration_Test@4afcd809]" started-at="2023-11-30T17:50:20 IST" name="closeDB" finished-at="2023-11-30T17:50:20 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDB -->

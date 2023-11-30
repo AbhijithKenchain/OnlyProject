@@ -76,5 +76,9 @@ public WebElement addRestaurantSuccessMessage(WebDriver driver)
 	.findElement(By.xpath("//div[@class='alert alert-success alert-dismissible fade show']"));
 	return message;
 }
+public void cnclClick()
+{
+	CancelBtn.click();
+}
 
 }
