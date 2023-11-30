@@ -68,8 +68,9 @@ public class EditDashboard_To_Allrestaurants_Admin_Integration_Test extends Admi
 		}
 		arp.cnclClick();
 String resName = "ghj";
-
+Thread.sleep(3000);
 admindash.allrestaurantLink();
+Thread.sleep(500);
 
 		AllRestaurantsPage allr=new AllRestaurantsPage();
 				allr.restaurantClick(driver, resName).click();
