@@ -71,7 +71,7 @@ public class AdminDashBoardPage {
 	@FindBy(xpath="//a[@class='has-arrow  'and .='Restaurant']")
 	private WebElement RestaurantDD;
 	
-	@FindBy(xpath="//a[.='All Restaurants']")
+	@FindBy(xpath="//li[@class='active']//a[.='All Restaurants']")
 	private WebElement AllrestaurantPageLink;
 	
 	@FindBy(xpath="//a[.='Add Category']")
