@@ -31,7 +31,7 @@ public class EditDashboard_To_Allrestaurants_Admin_Integration_Test extends Admi
 		} else {
 			System.out.println("testcase failed");
 		}
-		
+		admindash.restaurantDD();
 		admindash.addrestaurantLink();
 
 		AddRestaurantPage arp = new AddRestaurantPage(driver);
