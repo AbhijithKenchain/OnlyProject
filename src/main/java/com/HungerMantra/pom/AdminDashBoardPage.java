@@ -6,8 +6,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import com.GenericUtilities.WebDriverUtils1;
+
 public class AdminDashBoardPage {
-	
+	WebDriverUtils1 wlib=new WebDriverUtils1();
 	@FindBy(xpath="//span[.='Dashboard']")
 	private WebElement dashboardLink;
 	
@@ -235,6 +237,7 @@ public class AdminDashBoardPage {
 	
 	public void restaurantDD()
 	{
-		RestaurantDD.click();;
+		
+		RestaurantDD.click();
 	}
 }
