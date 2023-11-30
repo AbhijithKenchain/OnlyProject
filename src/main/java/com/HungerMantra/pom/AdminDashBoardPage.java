@@ -224,7 +224,7 @@ public class AdminDashBoardPage {
 	
 	public void addrestaurantLink()
 	{
-		RestaurantDD.click();
+		
 		AddRestaurantPageLink.click();
 
 	}
