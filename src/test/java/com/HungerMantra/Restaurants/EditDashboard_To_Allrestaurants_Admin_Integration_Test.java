@@ -70,10 +70,11 @@ public class EditDashboard_To_Allrestaurants_Admin_Integration_Test extends Admi
 String resName = "ghj";
 Thread.sleep(3000);
 admindash.allrestaurantLink();
-Thread.sleep(500);
+Thread.sleep(5000);
 
 		AllRestaurantsPage allr=new AllRestaurantsPage();
-				allr.restaurantClick(driver, resName).click();
+		Thread.sleep(5000);
+		allr.restaurantClick(driver, resName).click();
 
 //updating resturant
 
