@@ -71,6 +71,8 @@ String resName = "ghj";
 Thread.sleep(5000);
 admindash.restaurantDD();
 Thread.sleep(5000);
+admindash.restaurantDD();
+Thread.sleep(5000);
 admindash.allrestaurantLink();
 Thread.sleep(5000);
 
