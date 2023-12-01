@@ -68,7 +68,9 @@ public class EditDashboard_To_Allrestaurants_Admin_Integration_Test extends Admi
 		}
 		arp.cnclClick();
 String resName = "ghj";
-Thread.sleep(3000);
+Thread.sleep(5000);
+admindash.restaurantDD();
+Thread.sleep(5000);
 admindash.allrestaurantLink();
 Thread.sleep(5000);
 
